@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <script src="js/index.js" defer></script>
+    <script src="js/hamburger.js" defer></script>
+    <script src="https://kit.fontawesome.com/2c28c53cee.js" crossorigin="anonymous" defer></script>
+    <title>Eagle</title>
+</head>
+<body>
+
+<!-- START BEFORE NAV -->
+    <div class="before-nav">
+        <a href="agent-login.php">Pregled Prijava</a>
+    </div>
+<!-- END BEFORE NAV -->
+
+<!-- START NAV -->
+    <nav>
+        <img src="images/eagle-logo.jpg" alt="Eagle" class="nav-logo" onclick="document.body.scrollIntoView()">
+        <ul>
+            <li><a href="#" onclick="document.body.scrollIntoView()">Početna</a></li>
+            <li><a href="#info">Info</a></li>
+            <li><a href="#cenovnici">Cenovnik</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+        <p><i id="hamburger-button" class="fa fa-bars"></i></p>
+    </nav>
+
+    <ul class="ul-phone">
+        <div>
+            <li><a href="#" onclick="document.body.scrollIntoView()"><i class="fa fa-home"></i> POČETNA</a></li>
+            <li style="padding-top: 10px;"><a href="#info"><i class="fa fa-question"></i> INFO</a></li>
+            <li style="padding-top: 10px;"><a href="#cenovnici"><i class="fa fa-dollar-sign"></i> CENOVNIK</a></li>
+            <li style="padding-top: 10px;"><a href="#kontakt"><i class="fa fa-user"></i> KONTAKT</a></li>
+        </div>
+    </ul>
+<!-- END NAV -->
+
+<!-- START HERO -->
+    <div class="hero">
+        <div class="overlay">
+            <p>
+                Sve na jednom mestu. Najbolja ponuda i najbolje cene.
+                Izaberi sigurnu opciju. Uštedi novac u svom budžetu.
+            </p>
+
+            <div>
+                <a href="#info" class="hero-info">JOŠ INFORMACIJA</a>
+                <a href="#cenovnici" class="hero-cenovnici">POGLEDAJ CENE</a>
+            </div>
+        </div>
+    </div>
+<!-- END HERO -->
+
+<!-- START INFO -->
+<section id="info">
+    <div class="info">
+        <div>
+            <i 
+                class="fa fa-globe"
+                style="color: #03C03C; font-size: 50px;"
+            ></i>
+            <p>
+                Najbolja ponuda uz najbolje cene za internet servise na tržištu. Uzmi i ti Eagle internet sada!
+            </p>
+        </div>
+        
+        <div>
+            <i 
+                class="fa fa-tv"
+                style="color: #03C03C; font-size: 50px;"
+            ></i>
+            <p>
+                Najbolja ponuda uz najbolje cene za servise televizije na tržištu. Uzmi i ti Ealge televiziju sada!
+            </p>
+        </div>
+        
+        <div>
+            <i 
+                class="fa fa-phone"
+                style="color: #03C03C; font-size: 50px;"
+            ></i>
+            <p>
+                Najbolja ponuda uz najbolje cene za servise telefonije na tržištu. Uzmi i ti Eagle telefoniju sada!
+            </p>
+        </div>
+    </div>
+</section>
+<!-- END INFO -->
+
+<!-- START MINI INFO -->
+    <div class="mini-info">
+        <p>Najekonomičnije rešenje za vaš budžet!</p>
+        <a href="#cenovnici">POGLEDAJ CENE</a>
+    </div>
+<!-- END MINI INFO -->
+
+<!-- START CENOVNICI -->
+<section id="cenovnici">
+    <div class="cenovnici">
+
+        <div class="cenovnici-obican">
+            <p 
+                style="text-align:center; font-size: 25px; padding-bottom: 20px;"
+            >
+                EAGLE JUNIOR
+            </p>
+            <ul style="list-style: none;">
+                <li>✔ Internet 10 Gb/s</li>
+                <li>✔ Televizija 150 kanala</li>
+                <li>
+                    ✔ Mobilna Telefonija 
+                    <span 
+                        title="200 Minuta - 200 Poruka - 50 Gb Internet"
+                        style="text-decoration: underline; cursor: pointer;"
+                    >
+                        START
+                    </span>
+                </li>
+                <li>✔ Fiksna Telefonija 100 minuta</li>
+            </ul>
+
+            <p style="text-align:center; padding-top: 20px;">
+                <span style="font-size: 30px;">2500,00</span> dinara / mesečno
+            </p>
+
+            <div>
+                <p id="kupi-junior">KUPI</p>
+            </div>
+        </div>
+        
+        <div class="cenovnici-popularan">
+            <p 
+                style="text-align:center; color: #fff; font-size: 25px; padding-bottom: 20px;"
+            >
+                EAGLE MEDIOR
+            </p>
+
+            <ul style="list-style: none; color: #fff;">
+                <li>✔ Internet 25 Gb/s</li>
+                <li>✔ Televizija 200 kanala</li>
+                <li>
+                    ✔ Mobilna Telefonija 
+                    <span 
+                        title="500 Minuta - 500 Poruka - 150 Gb Internet"
+                        style="text-decoration: underline; cursor: pointer;"
+                    >
+                        CLASSIC
+                    </span>
+                </li>
+                <li>✔ Fiksna Telefonija 250 minuta</li>
+
+            </ul>
+
+            <p style="text-align:center; padding-top: 20px; color: #fff;">
+                <span style="font-size: 30px;">3500,00</span> dinara / mesečno
+            </p>
+
+            <div>
+                <p id="kupi-medior">KUPI</p>
+            </div>
+
+            <p class="text-popularan">
+                HIT!
+            </p>
+            
+        </div>
+        
+        <div class="cenovnici-obican">
+            <p 
+                style="text-align:center; font-size: 25px; padding-bottom: 20px;"
+            >
+                EAGLE SENIOR
+            </p>
+            <ul style="list-style: none;">
+                <li>✔ Internet 40 Gb/s</li>
+                <li>✔ Televizija 300 kanala</li>
+                <li>
+                    ✔ Mobilna Telefonija 
+                    <span 
+                        title="Neograniceno Minuta - Neograniceno Poruka - 500 Gb Internet"
+                        style="text-decoration: underline; cursor: pointer;"
+                    >
+                        PRO
+                    </span>
+                </li>
+                <li>✔ Fiksna Telefonija 500 minuta</li>
+            </ul>
+
+            <p style="text-align:center; padding-top: 20px;">
+                <span style="font-size: 30px;">5500,00</span> dinara / mesečno
+            </p>
+
+            <div>
+                <p id="kupi-senior">KUPI</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- END CENOVNICI -->
+
+<!-- START KONTAKT -->
+<section id="kontakt">
+    <div class="kontakt">
+        <div>
+            <i class="fa fa-phone" style="font-size: 30px;"></i>
+
+            <p>
+                Nazovi nas! <br />
+                011 30 300 300
+            </p>
+
+            <a href="tel:01130300300">NAZOVI NAS</a>
+        </div>
+
+        <div>
+            <i class="fa fa-envelope" style="font-size: 30px;"></i>
+
+            <p>
+                Kontaktiraj nas! <br />
+                eagle.tim@eagle.rs
+            </p>
+
+            <a href="mailto:eagle@gmail.com">KONTAKTIRAJ NAS</a>
+        </div>
+    </div>
+</section>
+<!-- END KONTAKT -->
+
+<!-- START FOOTER -->
+
+    <footer>
+        <div>
+            <span style="display:flex; justify-content:left; align-items:center; gap:10px; color:#fff; font-size:20px;">
+                <img src="images/eagle-logo.jpg" alt="Eagle" class="nav-logo" onclick="document.body.scrollIntoView()">
+                Eagle
+            </span>
+            <p style="color: #fff; max-width: 250px; padding-top:10px; padding-bottom:10px;">
+                Sve na jednom mestu. Najbolja ponuda i najbolje cene.
+                Izaberi sigurnu opciju. Uštedi novac u svom budžetu.
+            </p>
+            <div style="display:flex; gap:10px;">
+                <a class="sm-a" href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a class="sm-a" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a class="sm-a" href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a class="sm-a" href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+<!-- END FOOTER -->
+
+<!-- START AFTER FOOTER -->
+
+    <div class="after-footer">
+        <p>
+            Designed and Developed by <a href="https://github.com/milosm00" target="_blank">MM</a>.
+        </p>
+    </div>
+
+<!-- END AFTER FOOTER -->
+
+<!-- START MODAL -->
+
+<div class="modal-overlay"></div>
+<div class="modal">
+
+    <i class="fa fa-info info-modal" style="font-size: 30px;"></i>
+
+    <h2 style="padding-top: 30px; padding-bottom: 30px;">
+        Da li ste sigurni da želite odabrani paket?
+    </h2>
+
+    <p>
+        Izabrali ste: <span class="izbor">EAGLE JUNIOR</span> paket.
+    </p>
+
+    <p style="padding-bottom: 30px;">
+        Cena paketa je: <span class="cena">2500,00</span> RSD.
+    </p>
+
+    <a id="kupi" href="">KUPI</a>
+
+    <div class="close-button">
+        <i class="fa fa-times" style="font-size: 25px; cursor: pointer;"></i>
+    </div>
+
+</div>
+
+<!-- END MODAL -->
+
+</body>
+</html>
